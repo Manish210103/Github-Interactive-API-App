@@ -1,0 +1,9 @@
+.custom-top {
+    top: 11%;
+}
+
+@media (max-height: 600px) {
+    .custom-top {
+        top: 15%;
+    }
+}

@@ -15,6 +15,7 @@ import { UserCardComponent } from './components/user-card/user-card.component';
 import { ReposComponent } from './components/repos/repos.component';
 import { CommonModule } from '@angular/common';
 import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
     
     declarations: [
@@ -38,7 +39,8 @@ import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.compone
         ToastrModule.forRoot({
             positionClass: 'toast-top-right',
             preventDuplicates: true,
-        }),       
+        }),
+        NgbModule,       
     ],
     providers: [],
     bootstrap: [AppComponent]
