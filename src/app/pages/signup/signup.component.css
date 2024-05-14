@@ -1,0 +1,16 @@
+.text-lightblue {
+    color: rgb(35, 174, 220);
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-lightgrey {
+    background: rgb(234, 232, 232);
+}
+
+.active-link {
+    color: white !important;
+    text-decoration: underline !important;
+}

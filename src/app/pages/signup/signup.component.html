@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-center vh-100 bg-light">
+    <div class="col-5 position-absolute" style="top: 20%;">
+    <div class="card shadow">
+      <h2 class="text-center text-lightblue bg-lightgrey card-header">
+        SIGN UP PLEASE
+      </h2>
+      <div class="card-body p-4">
+        <form>
+          <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email"  id="email" name="email" placeholder="Enter Email" [(ngModel)]="email" required class="form-control form-control-sm"/>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="password" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Enter password (min. 6 characters)" required class="form-control form-control-sm"/>
+              <small class="form-text text-muted">
+                Minimum length of the password should be 6 or more.
+              </small>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-3">
+            <button type="button" (click)="signup()" class="btn btn-primary btn-sm">
+                Sign Up
+            </button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div *ngIf="user">
+  <div class="card shadow-lg rounded overflow-hidden mt-2 position-absolute" style="top:16%; left:15%; width: 80%; height:80%">
+    <div class="row no-gutters">
+      <div class="col-md-4 bg-light p-4">
+        <img class="mx-auto d-block" [src]="user[0].avatar_url" alt="Profile Picture" style="width: 100px; height: 100px;">
+        <h3 class="mt-2 text-center">{{ user[0].name }}</h3>
+        <div class="mt-2">
+          <div class="card bg-light mb-2">
+            <div class="card-body">Bio: {{ user[0].bio }}</div>
+          </div>
+          <div class="card bg-light mb-2">
+            <div class="card-body">Company: {{ user[0].company }}</div>
+          </div>
+          <div class="card bg-light mb-2">
+            <div class="card-body">
+              Website:
+              <a [href]="user.blog" class="text-primary">{{ user[0].blog }}</a>
+            </div>
+          </div>
+          <div class="card bg-light">
+            <div class="card-body">Updated at: {{ user[0].updated_at | date:'short' }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

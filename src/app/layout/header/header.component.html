@@ -1,0 +1,21 @@
+<header class="header bg-primary text-white fixed-top overflow-hidden">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col text-left" style="font-size: 20px;">
+        GitHub Interactive API
+      </div>
+      <div class="col d-flex justify-content-end" *ngIf="!isLoggedIn; else loggedIn">
+        <button class="btn btn-primary" [disabled]="!isLoggedIn"><a class="text-light" routerLink="/home">Home</a></button>
+        <button class="btn btn-primary "><a class="text-light" routerLink="/signin">Signin</a></button>
+        <button class="btn btn-primary "><a class="text-light" routerLink="/signup">Signup</a></button>
+      </div>
+      <ng-template #loggedIn>
+        <div class="col d-flex justify-content-end">
+          <p class="text-light pr-3 position-relative" style="top:20%; right:1%" *ngIf="currentUserEmail">{{currentUserEmail}}</p>
+          <button class="btn btn-primary "><a class="text-light" routerLink="/home">Home</a></button>
+          <button class="btn btn-primary "><a class="text-light" (click)="logout()">Logout</a></button>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+<div *ngIf="user">
+  <div class="col-md-8 p-4 position-absolute w-50" style="top:16%; left:40%">
+    <div class="overflow-auto" style="height: 490px;">
+      <ul class="list-unstyled">
+        <li class="card bg-light mb-2" *ngFor="let repo of user[1]">
+          <div class="card-body"><strong>Topic :</strong> {{ repo.name }} <strong>Desc :</strong>  {{repo.description}}</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
