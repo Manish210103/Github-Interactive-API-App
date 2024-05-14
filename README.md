@@ -21,7 +21,7 @@
         > Layout : conatins (footer) and (header)
         > Pages : contains (home), (pagenotfound), (signin) and (signout)
         > Services : contains (authservice) and (github service)
-        > environments : conatins (firebase configurations)
+        > environments : contains (firebase configurations)
 ### Files :
         > app.modules.ts : contains all modules and components
         > app.routes.ts : contains routes to navigate through pages
