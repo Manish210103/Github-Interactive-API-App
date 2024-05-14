@@ -37,11 +37,15 @@
         Making a complete end to end application using Angular was itself surprising since it was new to me.
 ### What was hard about the assignment?
         Understanding the logical errors that i went through in my codebase and rectifying it 
-## Sample ScreenShots 
+## Sample Screenshots 
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/387ae472-dbf1-47b0-97ca-344abcd6a021)
+
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/50ede251-6946-4de1-a42a-bcd876a5d094)
+
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/2bedc3fa-3010-415b-b35d-d3b5159bd81c)
+
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/f2c627d3-9cee-4563-b67d-4bb3c327a7dd)
+
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/6418d4f2-1b60-422f-af4b-33db8d311c18)
 
 
