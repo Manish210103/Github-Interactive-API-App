@@ -7,6 +7,8 @@
     entering the username achieved using API call After Entering correct username, the home page should 
     be populated with user details and all its public repositories.
     
+ Deployed app : [https://github-interactive-api.vercel.app/](https://github-interactive-api.vercel.app/)    
+
 ## Instruction
 ### How to Run :
         > clone the repo.
@@ -23,8 +25,6 @@
 ### Files :
         > app.modules.ts : contains all modules and components
         > app.routes.ts : contains routes to navigate through pages
-### Deployed app : 
-  `https://task1-olive-alpha.vercel.app/`
 
 ## Comments From Your End:
 ###  How much time did you spend on the assignment? How was it divided between designing, coding, and testing?
