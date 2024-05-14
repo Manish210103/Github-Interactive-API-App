@@ -11,7 +11,7 @@
 
 ## Instruction
 ### How to Run :
-        > clone the repo.
+        > Clone the repo.
         > Install the latest version of Angular ( npm install -g @angular/cli )
         > Install the necessary packages using (npm install)
         > Create a firebase project and copy the firebase config to environment folder (environment.ts and environment.development.ts)
