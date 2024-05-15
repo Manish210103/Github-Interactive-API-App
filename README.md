@@ -41,17 +41,6 @@
         - app.modules.ts : contains all modules and components
         - app.routes.ts : contains routes to navigate through pages
 
-## Comments From Your End:
-###  How much time did you spend on the assignment? How was it divided between designing, coding, and testing?
-        Since I was totally new to angular I spent most time for learning the basics and some important concepts. For the task 
-        I spent most of the time in coding part and less time for designing and testing  
-###  What advice should we have given you before you started? 
-        Could have mentioned about the Version to be used since every version had some major changes from the other and also 
-        could have mentioned about the main component for which we must give more weightage and focus on.
-### What was surprising about the assignment? 
-        Making a complete end to end application using Angular was itself surprising since it was new to me.
-### What was hard about the assignment?
-        Understanding the logical errors that I went through in my codebase and rectifying it 
 ## Sample Screenshots 
 ![image](https://github.com/Manish210103/Github-Interactive-API-App/assets/102723626/387ae472-dbf1-47b0-97ca-344abcd6a021)
 
