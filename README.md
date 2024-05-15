@@ -11,20 +11,35 @@
 
 ## Instruction
 ### How to Run :
-        > Clone the repo.
-        > Install the latest version of Angular ( npm install -g @angular/cli )
-        > Install the necessary packages using (npm install)
-        > Create a firebase project and copy the firebase config to environment folder (environment.ts and environment.development.ts)
-        > ng serve to run it in localhost (http://localhost:4200/)
+  1. Clone the repo.
+     ```bash
+     git clone https://github.com/Manish210103/Github-Interactive-API-App.git
+     cd Github-Interactive-API-App
+     ```
+  3. Install the latest version of Angular
+     ```bash
+     npm install -g @angular/cli
+     ```
+  5. Install the necessary packages using
+     ```bash
+     npm install
+     ```
+  7. Create a firebase project and copy the firebase config to environment folder
+     `environment.ts` and `environment.development.ts`
+  8. Run the server
+     ```bash
+     ng serve
+     ```
+     The application will be accessible at [http://localhost:4200/](http://localhost:4200/) .
 ### Folders : 
-        > Components : contains (user-card) and (repos)
-        > Layout : conatins (footer) and (header)
-        > Pages : contains (home), (pagenotfound), (signin) and (signout)
-        > Services : contains (authservice) and (github service)
-        > environments : contains (firebase configurations)
+        - Components : contains (user-card) and (repos)
+        - Layout : conatins (footer) and (header)
+        - Pages : contains (home), (pagenotfound), (signin) and (signout)
+        - Services : contains (authservice) and (github service)
+        - environments : contains (firebase configurations)
 ### Files :
-        > app.modules.ts : contains all modules and components
-        > app.routes.ts : contains routes to navigate through pages
+        - app.modules.ts : contains all modules and components
+        - app.routes.ts : contains routes to navigate through pages
 
 ## Comments From Your End:
 ###  How much time did you spend on the assignment? How was it divided between designing, coding, and testing?
